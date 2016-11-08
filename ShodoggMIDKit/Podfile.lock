@@ -1,0 +1,171 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - LGConnectSDK (1.0.1):
+    - LGConnectSDK/Core (= 1.0.1)
+    - LGConnectSDK/google-cast (= 1.0.1)
+    - LGConnectSDK/no-arc (= 1.0.1)
+    - LGConnectSDK/SmartView (= 1.0.1)
+  - LGConnectSDK/Core (1.0.1):
+    - LGConnectSDK/no-arc
+  - LGConnectSDK/google-cast (1.0.1):
+    - LGConnectSDK/Core
+  - LGConnectSDK/no-arc (1.0.1)
+  - LGConnectSDK/SmartView (1.0.1):
+    - LGConnectSDK/Core
+  - LNPopupController (0.0.4)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MagicalRecord/ShorthandMethodAliases (2.3.2)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - MBProgressHUD (1.0.0)
+  - pop (1.0.9)
+  - Reachability (3.2)
+  - Realm (1.0.2):
+    - Realm/Headers (= 1.0.2)
+  - Realm/Headers (1.0.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - ShodoggAPIKit (2.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Reachability (~> 3.2)
+    - ShodoggAPIKit/Core (= 2.0.4)
+    - ShodoggAPIKit/GCJSONKit (= 2.0.4)
+    - ShodoggAPIKit/RequestUtils (= 2.0.4)
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggAPIKit/Core (2.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Reachability (~> 3.2)
+    - ShodoggAPIKit/GCJSONKit
+    - ShodoggAPIKit/RequestUtils
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggAPIKit/GCJSONKit (2.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Reachability (~> 3.2)
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggAPIKit/RequestUtils (2.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Reachability (~> 3.2)
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggMIDKit (1.2.1):
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+    - ShodoggMIDKit/Core (= 1.2.1)
+    - ShodoggMIDKit/Data (= 1.2.1)
+    - ShodoggMIDKit/Discovery (= 1.2.1)
+    - ShodoggMIDKit/NoARC (= 1.2.1)
+    - ShodoggMIDKit/UISupport (= 1.2.1)
+  - ShodoggMIDKit/Core (1.2.1):
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+    - ShodoggMIDKit/NoARC
+  - ShodoggMIDKit/Data (1.2.1):
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+    - ShodoggMIDKit/Data/DataTracking (= 1.2.1)
+    - ShodoggMIDKit/Data/DeviceGraph (= 1.2.1)
+  - ShodoggMIDKit/Data/DataTracking (1.2.1):
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+  - ShodoggMIDKit/Data/DeviceGraph (1.2.1):
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+  - ShodoggMIDKit/Discovery (1.2.1):
+    - LGConnectSDK
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+    - ShodoggMIDKit/Core
+  - ShodoggMIDKit/NoARC (1.2.1):
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - Realm
+    - ShodoggAPIKit
+  - ShodoggMIDKit/UISupport (1.2.1):
+    - LNPopupController
+    - MagicalRecord
+    - MagicalRecord/ShorthandMethodAliases
+    - Mantle
+    - MBProgressHUD (~> 1.0.0)
+    - pop
+    - Realm
+    - SDWebImage (~> 3.7.3)
+    - ShodoggAPIKit
+    - ShodoggMIDKit/Core
+  - UIDevice-Hardware (0.1.7)
+
+DEPENDENCIES:
+  - LGConnectSDK (from `../LGConnectSDK`)
+  - LNPopupController (from `../LNPopupController`)
+  - ShodoggAPIKit (from `../ios-sdk`)
+  - ShodoggMIDKit (from `./`)
+
+EXTERNAL SOURCES:
+  LGConnectSDK:
+    :path: ../LGConnectSDK
+  LNPopupController:
+    :path: ../LNPopupController
+  ShodoggAPIKit:
+    :path: ../ios-sdk
+  ShodoggMIDKit:
+    :path: ./
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  LGConnectSDK: 38594666f057fa796df86c32c22d53b23016b05e
+  LNPopupController: ca0a3eaab58e5138ab0accd60cb7aefc9e1be717
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 9d5c46a4d7d27958530a8dfc58f63a99e5c2cba3
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  ShodoggAPIKit: dd92dbd607cedb670a0acf22ee70e7d4096979a5
+  ShodoggMIDKit: 5760d67a4f1fce351bf88768f0a23adea2306a27
+  UIDevice-Hardware: de848ac4b53de555f70ff1a32877454d221c71d1
+
+PODFILE CHECKSUM: 4d5d00dbd5c028f984f287c26cc368ea778e04de
+
+COCOAPODS: 1.0.1

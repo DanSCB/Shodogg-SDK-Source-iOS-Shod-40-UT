@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AC4425D1598EBB9C675575 /* libPods-ShodoggDiagTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8403D017F104F85B5480C0EE /* libPods-ShodoggDiagTests.a */; };
+		514282CFA3A03FA1D4DE2208 /* libPods-ShodoggDiag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC7214AB6574FC07A937BE /* libPods-ShodoggDiag.a */; };
+		91DE84DA1DC9230400236CE3 /* ShodoggDiagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE84D11DC9204200236CE3 /* ShodoggDiagTests.m */; };
+		FE0402EE1DB673290059424A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0402ED1DB673290059424A /* main.m */; };
+		FE0402FC1DB673290059424A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0402FA1DB673290059424A /* LaunchScreen.storyboard */; };
+		FE0403051DB673570059424A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0403041DB673570059424A /* AppDelegate.m */; };
+		FE462E871DB6747E00054287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE462E861DB6747E00054287 /* Assets.xcassets */; };
+		FE462E891DB674BD00054287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE462E881DB674BD00054287 /* Main.storyboard */; };
+		FE462E8F1DB6752100054287 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE462E8D1DB6752100054287 /* StartViewController.m */; };
+		FE462EB91DB6759300054287 /* clearbridge.png in Resources */ = {isa = PBXBuildFile; fileRef = FE462EB81DB6759300054287 /* clearbridge.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91DE84D41DC9204200236CE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0402E11DB673290059424A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0402E81DB673290059424A;
+			remoteInfo = ShodoggDiag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0337862B4433B39FD65FCE88 /* Pods-ShodoggDiag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShodoggDiag.debug.xcconfig"; path = "ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiag/Pods-ShodoggDiag.debug.xcconfig"; sourceTree = "<group>"; };
+		0477FD77912548605E2C63B3 /* Pods-ShodoggDiag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShodoggDiag.release.xcconfig"; path = "ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiag/Pods-ShodoggDiag.release.xcconfig"; sourceTree = "<group>"; };
+		8403D017F104F85B5480C0EE /* libPods-ShodoggDiagTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShodoggDiagTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DE84CF1DC9204200236CE3 /* ShodoggDiagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShodoggDiagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DE84D11DC9204200236CE3 /* ShodoggDiagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShodoggDiagTests.m; sourceTree = "<group>"; };
+		91DE84D31DC9204200236CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C592ECCD9144B113F517223F /* Pods-ShodoggDiagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShodoggDiagTests.release.xcconfig"; path = "ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiagTests/Pods-ShodoggDiagTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8A1F09CB2D5670336D4AD0F /* Pods-ShodoggDiagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShodoggDiagTests.debug.xcconfig"; path = "ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiagTests/Pods-ShodoggDiagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0402E91DB673290059424A /* ShodoggDiag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShodoggDiag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0402ED1DB673290059424A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE0402FB1DB673290059424A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0402FD1DB673290059424A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0403031DB673570059424A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE0403041DB673570059424A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE462E861DB6747E00054287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE462E881DB674BD00054287 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FE462E8C1DB6752100054287 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		FE462E8D1DB6752100054287 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		FE462EB81DB6759300054287 /* clearbridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clearbridge.png; sourceTree = "<group>"; };
+		FECC7214AB6574FC07A937BE /* libPods-ShodoggDiag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShodoggDiag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91DE84CC1DC9204200236CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC4425D1598EBB9C675575 /* libPods-ShodoggDiagTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0402E61DB673290059424A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514282CFA3A03FA1D4DE2208 /* libPods-ShodoggDiag.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6791A51A04EDBA955B3880F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FECC7214AB6574FC07A937BE /* libPods-ShodoggDiag.a */,
+				8403D017F104F85B5480C0EE /* libPods-ShodoggDiagTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DE84D01DC9204200236CE3 /* ShodoggDiagTests */ = {
+			isa = PBXGroup;
+			children = (
+				91DE84D11DC9204200236CE3 /* ShodoggDiagTests.m */,
+				91DE84D31DC9204200236CE3 /* Info.plist */,
+			);
+			path = ShodoggDiagTests;
+			sourceTree = "<group>";
+		};
+		B613F0087F90FEAFE9DB62C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0337862B4433B39FD65FCE88 /* Pods-ShodoggDiag.debug.xcconfig */,
+				0477FD77912548605E2C63B3 /* Pods-ShodoggDiag.release.xcconfig */,
+				F8A1F09CB2D5670336D4AD0F /* Pods-ShodoggDiagTests.debug.xcconfig */,
+				C592ECCD9144B113F517223F /* Pods-ShodoggDiagTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE0402E01DB673290059424A = {
+			isa = PBXGroup;
+			children = (
+				FE0402EB1DB673290059424A /* ShodoggDiag */,
+				91DE84D01DC9204200236CE3 /* ShodoggDiagTests */,
+				FE0402EA1DB673290059424A /* Products */,
+				B613F0087F90FEAFE9DB62C8 /* Pods */,
+				6791A51A04EDBA955B3880F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0402EA1DB673290059424A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0402E91DB673290059424A /* ShodoggDiag.app */,
+				91DE84CF1DC9204200236CE3 /* ShodoggDiagTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0402EB1DB673290059424A /* ShodoggDiag */ = {
+			isa = PBXGroup;
+			children = (
+				FE0403031DB673570059424A /* AppDelegate.h */,
+				FE0403041DB673570059424A /* AppDelegate.m */,
+				FE462E8C1DB6752100054287 /* StartViewController.h */,
+				FE462E8D1DB6752100054287 /* StartViewController.m */,
+				FE462E861DB6747E00054287 /* Assets.xcassets */,
+				FE462E881DB674BD00054287 /* Main.storyboard */,
+				FE0402FA1DB673290059424A /* LaunchScreen.storyboard */,
+				FE0402FD1DB673290059424A /* Info.plist */,
+				FE0402EC1DB673290059424A /* Supporting Files */,
+			);
+			path = ShodoggDiag;
+			sourceTree = "<group>";
+		};
+		FE0402EC1DB673290059424A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE462EB81DB6759300054287 /* clearbridge.png */,
+				FE0402ED1DB673290059424A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91DE84CE1DC9204200236CE3 /* ShodoggDiagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DE84D81DC9204200236CE3 /* Build configuration list for PBXNativeTarget "ShodoggDiagTests" */;
+			buildPhases = (
+				7E051F6FDE44E6B7E01985F9 /* [CP] Check Pods Manifest.lock */,
+				91DE84CB1DC9204200236CE3 /* Sources */,
+				91DE84CC1DC9204200236CE3 /* Frameworks */,
+				91DE84CD1DC9204200236CE3 /* Resources */,
+				4DC4A483BC8F6E9AE45BA4A9 /* [CP] Embed Pods Frameworks */,
+				520C99EC3540433DBABD789A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DE84D51DC9204200236CE3 /* PBXTargetDependency */,
+			);
+			name = ShodoggDiagTests;
+			productName = ShodoggDiagTests;
+			productReference = 91DE84CF1DC9204200236CE3 /* ShodoggDiagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE0402E81DB673290059424A /* ShodoggDiag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0403001DB673290059424A /* Build configuration list for PBXNativeTarget "ShodoggDiag" */;
+			buildPhases = (
+				CCE9726DA41C44F2268E2C13 /* [CP] Check Pods Manifest.lock */,
+				FE0402E51DB673290059424A /* Sources */,
+				FE0402E61DB673290059424A /* Frameworks */,
+				FE0402E71DB673290059424A /* Resources */,
+				AEBF9A057B670BE7C8DF4953 /* [CP] Embed Pods Frameworks */,
+				0E3A8EAAB95471C58A17069D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShodoggDiag;
+			productName = ShodoggDiag;
+			productReference = FE0402E91DB673290059424A /* ShodoggDiag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0402E11DB673290059424A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Clearbridge;
+				TargetAttributes = {
+					91DE84CE1DC9204200236CE3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RRSN35SMK5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE0402E81DB673290059424A;
+					};
+					FE0402E81DB673290059424A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RRSN35SMK5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE0402E41DB673290059424A /* Build configuration list for PBXProject "ShodoggDiag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0402E01DB673290059424A;
+			productRefGroup = FE0402EA1DB673290059424A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0402E81DB673290059424A /* ShodoggDiag */,
+				91DE84CE1DC9204200236CE3 /* ShodoggDiagTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91DE84CD1DC9204200236CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0402E71DB673290059424A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE462E891DB674BD00054287 /* Main.storyboard in Resources */,
+				FE462E871DB6747E00054287 /* Assets.xcassets in Resources */,
+				FE462EB91DB6759300054287 /* clearbridge.png in Resources */,
+				FE0402FC1DB673290059424A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3A8EAAB95471C58A17069D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiag/Pods-ShodoggDiag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC4A483BC8F6E9AE45BA4A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiagTests/Pods-ShodoggDiagTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		520C99EC3540433DBABD789A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiagTests/Pods-ShodoggDiagTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E051F6FDE44E6B7E01985F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBF9A057B670BE7C8DF4953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/ShodoggMIDKit/Pods/Target Support Files/Pods-ShodoggDiag/Pods-ShodoggDiag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE9726DA41C44F2268E2C13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DE84CB1DC9204200236CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DE84DA1DC9230400236CE3 /* ShodoggDiagTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0402E51DB673290059424A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0403051DB673570059424A /* AppDelegate.m in Sources */,
+				FE462E8F1DB6752100054287 /* StartViewController.m in Sources */,
+				FE0402EE1DB673290059424A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91DE84D51DC9204200236CE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0402E81DB673290059424A /* ShodoggDiag */;
+			targetProxy = 91DE84D41DC9204200236CE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0402FA1DB673290059424A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0402FB1DB673290059424A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91DE84D61DC9204200236CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A1F09CB2D5670336D4AD0F /* Pods-ShodoggDiagTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RRSN35SMK5;
+				INFOPLIST_FILE = ShodoggDiagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clearbridge.ShodoggDiagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShodoggDiag.app/ShodoggDiag";
+			};
+			name = Debug;
+		};
+		91DE84D71DC9204200236CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C592ECCD9144B113F517223F /* Pods-ShodoggDiagTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RRSN35SMK5;
+				INFOPLIST_FILE = ShodoggDiagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clearbridge.ShodoggDiagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShodoggDiag.app/ShodoggDiag";
+			};
+			name = Release;
+		};
+		FE0402FE1DB673290059424A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0402FF1DB673290059424A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0403011DB673290059424A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0337862B4433B39FD65FCE88 /* Pods-ShodoggDiag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RRSN35SMK5;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ShodoggDiag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridge.UnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE0403021DB673290059424A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0477FD77912548605E2C63B3 /* Pods-ShodoggDiag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RRSN35SMK5;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ShodoggDiag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clearbridge.UnitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91DE84D81DC9204200236CE3 /* Build configuration list for PBXNativeTarget "ShodoggDiagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DE84D61DC9204200236CE3 /* Debug */,
+				91DE84D71DC9204200236CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0402E41DB673290059424A /* Build configuration list for PBXProject "ShodoggDiag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0402FE1DB673290059424A /* Debug */,
+				FE0402FF1DB673290059424A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0403001DB673290059424A /* Build configuration list for PBXNativeTarget "ShodoggDiag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0403011DB673290059424A /* Debug */,
+				FE0403021DB673290059424A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0402E11DB673290059424A /* Project object */;
+}

@@ -1,0 +1,28 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/shodogg/Specs'
+
+platform :ios,'7.0'
+inhibit_all_warnings!
+
+xcodeproj ‘../ShodoggDiag.xcodeproj'
+workspace '../ShodoggDiag.xcworkspace'
+
+target ‘ShodoggDiag’ do
+    pod 'ShodoggMIDKit', :path => './'
+    pod 'LGConnectSDK', :path => '../LGConnectSDK'
+    pod 'ShodoggAPIKit', :path => '../ios-sdk'
+    pod 'LNPopupController', :path => '../LNPopupController'
+end
+
+target ‘ShodoggDiagTests’ do
+    pod 'ShodoggMIDKit', :path => './'
+    pod 'LGConnectSDK', :path => '../LGConnectSDK'
+    pod 'ShodoggAPIKit', :path => '../ios-sdk'
+    pod 'LNPopupController', :path => '../LNPopupController'
+end
+
+post_install do |installer|
+    installer.pods_project.build_configuration_list.build_configurations.each do |configuration|
+        configuration.build_settings['ENABLE_BITCODE'] = 'NO'
+    end
+end

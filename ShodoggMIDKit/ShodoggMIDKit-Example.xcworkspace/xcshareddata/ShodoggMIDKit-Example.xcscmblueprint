@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DA3B747060D2159DE23128AE99ACE8BF1BFE7663",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "75793EFA09A162BA4F1A17844A987CDF3B180B54" : 0,
+    "17F782690A81D001A6DE548E24007364647BAAA3" : 0,
+    "DA3B747060D2159DE23128AE99ACE8BF1BFE7663" : 0,
+    "9694058F8A4904D488B98A9DA964F340A9A06A1D" : 0,
+    "EC433DA33D9DD3B2D237C35005DC1E035C23B88C" : 0,
+    "E06554424267162E52D1D5FAB42ED7441BB28A87" : 0,
+    "11E76B4A8B249084BFAB339B1C0AB3F9B9875C19" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ED045D0A-468F-4B4F-AACE-67D5DD2BFE00",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "75793EFA09A162BA4F1A17844A987CDF3B180B54" : "Connect-SDK-iOS\/",
+    "17F782690A81D001A6DE548E24007364647BAAA3" : "Connect-SDK-iOS\/modules\/google-cast\/",
+    "DA3B747060D2159DE23128AE99ACE8BF1BFE7663" : "ShodoggMIDKit\/",
+    "9694058F8A4904D488B98A9DA964F340A9A06A1D" : "LGConnectSDK\/",
+    "EC433DA33D9DD3B2D237C35005DC1E035C23B88C" : "Connect-SDK-iOS\/modules\/firetv\/",
+    "E06554424267162E52D1D5FAB42ED7441BB28A87" : "iOS-SDK\/",
+    "11E76B4A8B249084BFAB339B1C0AB3F9B9875C19" : "Connect-SDK-iOS\/core\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ShodoggMIDKit-Example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ShodoggMIDKit-Example.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS-Core.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11E76B4A8B249084BFAB339B1C0AB3F9B9875C19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS-Google-Cast.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17F782690A81D001A6DE548E24007364647BAAA3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75793EFA09A162BA4F1A17844A987CDF3B180B54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shodogg\/LGConnectSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9694058F8A4904D488B98A9DA964F340A9A06A1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shodogg\/ShodoggMIDKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA3B747060D2159DE23128AE99ACE8BF1BFE7663"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shodogg\/iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E06554424267162E52D1D5FAB42ED7441BB28A87"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS-FireTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC433DA33D9DD3B2D237C35005DC1E035C23B88C"
+    }
+  ]
+}

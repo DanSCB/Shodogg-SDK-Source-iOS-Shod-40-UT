@@ -1,0 +1,3 @@
+[submodule "Frameworks"]
+	path = Frameworks
+	url = git@git.oxagile.com:ShoDogg/ios_amazon_lib.git

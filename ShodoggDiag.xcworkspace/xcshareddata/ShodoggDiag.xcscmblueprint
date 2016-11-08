@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9C421DA524D9044B0455D7E60AB96D567CD35ADB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DA3B747060D2159DE23128AE99ACE8BF1BFE7663" : 9223372036854775807,
+    "9694058F8A4904D488B98A9DA964F340A9A06A1D" : 9223372036854775807,
+    "9C421DA524D9044B0455D7E60AB96D567CD35ADB" : 9223372036854775807,
+    "8BD688C1D47A3EC8CF41C0F83BE8E771C043BDF9" : 9223372036854775807,
+    "E06554424267162E52D1D5FAB42ED7441BB28A87" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F72E49A-5609-448B-BF9A-BF101D1D0D05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DA3B747060D2159DE23128AE99ACE8BF1BFE7663" : "Shodogg-Client-Demo-iOS\/ShodoggMIDKit\/",
+    "9694058F8A4904D488B98A9DA964F340A9A06A1D" : "Shodogg-Client-Demo-iOS\/LGConnectSDK\/",
+    "9C421DA524D9044B0455D7E60AB96D567CD35ADB" : "Shodogg-SDK-Source-iOS\/",
+    "8BD688C1D47A3EC8CF41C0F83BE8E771C043BDF9" : "Shodogg-Client-Demo-iOS\/",
+    "E06554424267162E52D1D5FAB42ED7441BB28A87" : "Shodogg-Client-Demo-iOS\/iOS-SDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ShodoggDiag",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ShodoggDiag.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ClearbridgeMobile\/Shodogg-Client-Demo-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8BD688C1D47A3EC8CF41C0F83BE8E771C043BDF9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shodogg\/LGConnectSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9694058F8A4904D488B98A9DA964F340A9A06A1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Shodogg\/Shodogg-SDK-Source-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C421DA524D9044B0455D7E60AB96D567CD35ADB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shodogg\/ShodoggMIDKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA3B747060D2159DE23128AE99ACE8BF1BFE7663"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shodogg\/iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E06554424267162E52D1D5FAB42ED7441BB28A87"
+    }
+  ]
+}

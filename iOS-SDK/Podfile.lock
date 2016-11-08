@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Reachability (3.2)
+  - ShodoggAPIKit (2.0.3):
+    - AFNetworking (~> 2.6.1)
+    - Reachability (~> 3.2)
+    - ShodoggAPIKit/Core (= 2.0.3)
+    - ShodoggAPIKit/GCJSONKit (= 2.0.3)
+    - ShodoggAPIKit/RequestUtils (= 2.0.3)
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggAPIKit/Core (2.0.3):
+    - AFNetworking (~> 2.6.1)
+    - Reachability (~> 3.2)
+    - ShodoggAPIKit/GCJSONKit
+    - ShodoggAPIKit/RequestUtils
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggAPIKit/GCJSONKit (2.0.3):
+    - AFNetworking (~> 2.6.1)
+    - Reachability (~> 3.2)
+    - UIDevice-Hardware (~> 0.1.5)
+  - ShodoggAPIKit/RequestUtils (2.0.3):
+    - AFNetworking (~> 2.6.1)
+    - Reachability (~> 3.2)
+    - UIDevice-Hardware (~> 0.1.5)
+  - UIDevice-Hardware (0.1.7)
+
+DEPENDENCIES:
+  - ShodoggAPIKit (from `./`)
+
+EXTERNAL SOURCES:
+  ShodoggAPIKit:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ShodoggAPIKit: 964410b95051b568a892dc701d3021ba66ecfedd
+  UIDevice-Hardware: de848ac4b53de555f70ff1a32877454d221c71d1
+
+PODFILE CHECKSUM: c68c63bd5c41694627e58f0a9a1dd44d83f72137
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,18 @@
+//
+//  ShodoggMIDKit-prefix.pch
+//  ShodoggMIDKit
+//
+//  Created by Aamir Khan on 11/2/15.
+//  Copyright © 2015 Aamir Khan. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <ShodoggAPIKit/ShodoggAPIKit.h>
+	#import <LGConnectSDK/ConnectSDK.h>
+    #import <MagicalRecord/MagicalRecord.h>
+    #import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
+    #import <MagicalRecord/MagicalRecordShorthandMethodAliases.h>
+    #import <SDWebImage/UIImageView+WebCache.h>
+    #import <Mantle/Mantle.h>
+    #import <Realm/Realm.h>
+#endif

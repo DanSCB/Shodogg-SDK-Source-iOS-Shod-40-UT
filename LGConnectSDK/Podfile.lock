@@ -1,0 +1,27 @@
+PODS:
+  - LGConnectSDK (1.0.1):
+    - LGConnectSDK/Core (= 1.0.1)
+    - LGConnectSDK/google-cast (= 1.0.1)
+    - LGConnectSDK/no-arc (= 1.0.1)
+    - LGConnectSDK/SmartView (= 1.0.1)
+  - LGConnectSDK/Core (1.0.1):
+    - LGConnectSDK/no-arc
+  - LGConnectSDK/google-cast (1.0.1):
+    - LGConnectSDK/Core
+  - LGConnectSDK/no-arc (1.0.1)
+  - LGConnectSDK/SmartView (1.0.1):
+    - LGConnectSDK/Core
+
+DEPENDENCIES:
+  - LGConnectSDK (from `./`)
+
+EXTERNAL SOURCES:
+  LGConnectSDK:
+    :path: ./
+
+SPEC CHECKSUMS:
+  LGConnectSDK: 38594666f057fa796df86c32c22d53b23016b05e
+
+PODFILE CHECKSUM: 4de4da97a89f9e7a76ba295c9e2c48ebd9c411f5
+
+COCOAPODS: 1.0.1
